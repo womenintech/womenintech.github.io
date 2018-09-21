@@ -11,7 +11,7 @@
 <meta property="og:image" content="https://github.com/womenintech/womenintech.github.io/blob/master/womenintech.svg">
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <body>
-  <!-- Goole fonts -->
+  <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700%7CMerriweather+Sans:300,400,700" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,10 +35,10 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav align-items-lg-center text-uppercase pt-3 pt-lg-0 ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="#">Home</a>
                         </li>
-			     <a class="nav-link" href="mentors.html">Mentors</a>
-			      <a class="nav-link" href="mentees.html">Mentees</a>
+			     <a class="nav-link" href="index.html#mentors">Mentors</a>
+			      <a class="nav-link" href="index.html#mentees">Mentees</a>
 <!--                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="DropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mentors<i class="fas fa-angle-down fa-sm ml-1"></i></a>
                             <div class="dropdown-menu mb-2" aria-labelledby="DropdownMenu">
@@ -72,10 +72,13 @@
                 <div class="col-lg-6">
                     <h1 class="display-4">Can you spare 1 hour a week?</h1>
                     <p class="lead mb-4">Get Matched to Give or Receive Mentoring over 12 weeks</p>
-                    <a class="btn btn-pill btn-primary" href="#features" role="button">Learn more</a>
+			    <div class="mb-4">
+                        <a class="btn btn-pill btn-primary" href="#sign-up" role="button">Get started now</a>
+                    </div>
+                    <a class="link-cta" href="#features">Learn More</a>
                 </div>
                 <div class="col-lg-6">
-                    <img src="images/webchat.jpg" class="d-none d-lg-block img-fluid img-thumbnail" alt="Mentoring process">
+                    <img src="images/mentoring.gif" class="d-none d-lg-block img-fluid img-thumbnail" alt="Mentoring process">
                 </div>
             </div>
         </div>
@@ -155,13 +158,13 @@
             </div>
 
             <!-- Testimonials -->
-            <div class="container">
-                <h2 class="h3 mt-5 mb-4 text-center">What people are saying…</h2>
+            <div class="container" id="mentors">
+                <h2 class="h3 mt-5 mb-4 text-center">What our Mentors are saying…</h2>
                 <div class="row py-5">
                     <div class="col-md">
                         <blockquote class="bg-white rounded shadow mb-4 p-4 p-lg-5 text-center">
                             <img class="avatar avatar-md mb-4" src="https://cdn.pixabay.com/photo/2017/01/31/19/16/african-2026579_1280.png" alt="Rainey">
-                            <p class="text-secondary">OMG! This is amazing. My mentor gave me targets for next week and I pushed myself to do it straight away because I didn't want to let him down!</p>
+                            <p class="text-secondary">I get 1 day a week at work for my own projects, happy to squeeze my hour in there!</p>
                             <cite class="small text-uppercase">Rainey</cite>
                         </blockquote>
                     </div>
@@ -181,6 +184,33 @@
                     </div>
                 </div>
             </div>
+		
+		 <div class="container" id="mentees">
+                <h2 class="h3 mt-5 mb-4 text-center">What our Mentees are saying…</h2>
+                <div class="row py-5">
+                    <div class="col-md">
+                        <blockquote class="bg-white rounded shadow mb-4 p-4 p-lg-5 text-center">
+                            <img class="avatar avatar-md mb-4" src="https://cdn.pixabay.com/photo/2017/01/31/19/16/african-2026579_1280.png" alt="Rainey">
+                            <p class="text-secondary">OMG! This is amazing. My mentor gave me targets for next week and I pushed myself to do it straight away because I didn't want to let him down!</p>
+                            <cite class="small text-uppercase">Rainey</cite>
+                        </blockquote>
+                    </div>
+                    <div class="col-md">
+                        <blockquote class="bg-white rounded shadow mb-4 p-4 p-lg-5 text-center">
+                            <img class="avatar avatar-md mb-4" src="https://cdn.pixabay.com/photo/2016/04/25/08/23/man-1351393_1280.png" alt="Rainey">
+                            <p class="text-secondary">I have an interview coming up, can you we speak about this technical item?</p>
+                            <cite class="small text-uppercase">Kate</cite>
+                        </blockquote>
+                    </div>
+                    <div class="col-md">
+                        <blockquote class="bg-white rounded shadow mb-4 p-4 p-lg-5 text-center">
+                            <img class="avatar avatar-md mb-4" src="https://cdn.pixabay.com/photo/2017/01/31/17/17/baby-2025691_1280.png" alt="Mother and child">
+                            <p class="text-secondary">Sign me up!</p>
+                            <cite class="small text-uppercase">Adeola</cite>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
 
         </div><!-- end bg-skew -->
 
@@ -193,7 +223,7 @@
                     <p>Mentoring programs in the workplace is broken.  Find real people to speak to over webcam or in person that are happy to go on the journey of self or technical improvement with you for a minimum of 12 weeks</p>
                 </div>
                 <div class="col-lg-6">
-                    <img src="https://cdn.pixabay.com/photo/2016/10/23/17/06/calendar-1763587_1280.png" class="img-fluid img-thumbnail" alt="Weekly calendar">
+                    <img src="images/calendar.jpg" class="img-fluid img-thumbnail" alt="Weekly calendar">
                 </div>
             </div>
             <div class="row justify-content-lg-between align-items-lg-center py-4 py-lg-5">
@@ -283,10 +313,10 @@
                 <div class="col-4 col-md-2 mb-4">
                     <h3 class="h5 mb-3">About</h3>
                     <ul class="nav flex-column">
-                        <li class="mb-1"><a href="#">About</a></li>
-                        <li class="mb-1"><a href="#">Team</a></li>
-                        <li class="mb-1"><a href="#">Careers</a></li>
-                        <li class="mb-1"><a href="#">Blog</a></li>
+                        <li class="mb-1"><a href="about.html">About</a></li>
+                        <li class="mb-1"><a href="#about.html#team">Team</a></li>
+                        <li class="mb-1"><a href="#careers.html">Careers</a></li>
+                        <li class="mb-1"><a href="#blog.html">Blog</a></li>
                     </ul>
                 </div>
                 <div class="col-4 col-md-2 mb-4">
